@@ -21,7 +21,7 @@ public class TicketRequest {
         // Empty constructor
     }
 
-    public TicketRequest(TicketPrice ticketPrice, int quantity) {
+    public TicketRequest(TicketPrice ticketPrice, string quantity) {
         this.ticketPrice = ticketPrice.getId();
         this.quantity = quantity;
     }
