@@ -25,7 +25,7 @@ public class TicketRequest {
         this.ticketPrice = ticketPrice.getId();
         this.quantity = quantity;
         if (this.quantity == 4) {
-            throw new EmptyStackException();
+            throw new EmptyStackException();}
     }
 
     public long getTicketPrice() {
